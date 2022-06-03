@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 #import <UIKit/UIKit.h>
-#import "SCWaveformCache.h"
-#import "SCScrollableWaveformView.h" // For convenience
 
 @interface SCWaveformView : UIView
 
@@ -41,7 +39,7 @@
  The precision ratio. This defines the number of pixels
  used per band. Using a value of 0.5 means that 2 pixels
  will be used per band.
- 
+
  Default is 1.
  */
 @property (assign, nonatomic) CGFloat precision;
@@ -62,7 +60,7 @@
  The timeRange to use for rendering the waveform.
  If you want to render a portion of the waveform, you can
  reduce the duration.
- 
+
  Default is kCMTimeZero, kCMTimePositiveInfinity
  */
 @property (assign, nonatomic) CMTimeRange timeRange;

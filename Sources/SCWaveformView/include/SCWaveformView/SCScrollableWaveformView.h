@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SCWaveformView.h"
+#import "SCWaveformView/SCWaveformView.h"
 
 @class SCWaveformView;
 

@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SCWaveformView.h"
-#import "SCScrollableWaveformView.h"
+#import "SCWaveformView/SCWaveformView.h"
+#import "SCWaveformView/SCScrollableWaveformView.h"
 
 @interface SCViewController : UIViewController
 

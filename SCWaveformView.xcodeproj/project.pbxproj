@@ -7,57 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC27B75E1A9D0C80003DA2CB /* SCScrollableWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC27B75D1A9D0C80003DA2CB /* SCScrollableWaveformView.m */; };
-		DC27B7611A9D2649003DA2CB /* SCWaveformCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DC27B7601A9D2649003DA2CB /* SCWaveformCache.m */; };
-		DC2C7A331892A0770085043D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2C7A321892A0770085043D /* Foundation.framework */; };
-		DC2C7A351892A0770085043D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2C7A341892A0770085043D /* CoreGraphics.framework */; };
-		DC2C7A371892A0770085043D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2C7A361892A0770085043D /* UIKit.framework */; };
-		DC2C7A3D1892A0770085043D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC2C7A3B1892A0770085043D /* InfoPlist.strings */; };
-		DC2C7A3F1892A0770085043D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2C7A3E1892A0770085043D /* main.m */; };
-		DC2C7A431892A0770085043D /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2C7A421892A0770085043D /* SCAppDelegate.m */; };
-		DC2C7A461892A0770085043D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2C7A441892A0770085043D /* Main.storyboard */; };
-		DC2C7A491892A0770085043D /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2C7A481892A0770085043D /* SCViewController.m */; };
-		DC2C7A4B1892A0770085043D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2C7A4A1892A0770085043D /* Images.xcassets */; };
-		DC2C7A691892A0AD0085043D /* SCWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2C7A681892A0AD0085043D /* SCWaveformView.m */; };
-		DC2C7A6C1892A84F0085043D /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DC2C7A6B1892A84F0085043D /* test.m4a */; };
-		DCC79A2C1896983100CECFE7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC79A2B1896983000CECFE7 /* QuartzCore.framework */; };
+		170C65112833BCEE000546D4 /* SCWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 170C650C2833BCEE000546D4 /* SCWaveformView.m */; };
+		170C65122833BCEE000546D4 /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 170C650D2833BCEE000546D4 /* SCAppDelegate.m */; };
+		170C65132833BCEE000546D4 /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170C650E2833BCEE000546D4 /* SCViewController.m */; };
+		170C65142833BCEE000546D4 /* SCScrollableWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 170C650F2833BCEE000546D4 /* SCScrollableWaveformView.m */; };
+		170C65152833BCEE000546D4 /* SCWaveformCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 170C65102833BCEE000546D4 /* SCWaveformCache.m */; };
+		170C651B2833BCF9000546D4 /* SCAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 170C65162833BCF9000546D4 /* SCAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		170C651C2833BCF9000546D4 /* SCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 170C65172833BCF9000546D4 /* SCViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		170C651D2833BCF9000546D4 /* SCWaveformView.h in Headers */ = {isa = PBXBuildFile; fileRef = 170C65182833BCF9000546D4 /* SCWaveformView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		170C651E2833BCF9000546D4 /* SCScrollableWaveformView.h in Headers */ = {isa = PBXBuildFile; fileRef = 170C65192833BCF9000546D4 /* SCScrollableWaveformView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		170C651F2833BCF9000546D4 /* SCWaveformCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 170C651A2833BCF9000546D4 /* SCWaveformCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DC27B75C1A9D0C80003DA2CB /* SCScrollableWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCScrollableWaveformView.h; sourceTree = "<group>"; };
-		DC27B75D1A9D0C80003DA2CB /* SCScrollableWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCScrollableWaveformView.m; sourceTree = "<group>"; };
-		DC27B75F1A9D2649003DA2CB /* SCWaveformCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCWaveformCache.h; sourceTree = "<group>"; };
-		DC27B7601A9D2649003DA2CB /* SCWaveformCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCWaveformCache.m; sourceTree = "<group>"; };
-		DC2C7A2F1892A0770085043D /* SCWaveformView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCWaveformView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		170C64F72832FCFD000546D4 /* SCWaveformView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCWaveformView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		170C650C2833BCEE000546D4 /* SCWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCWaveformView.m; path = Sources/SCWaveformView/SCWaveformView.m; sourceTree = "<group>"; };
+		170C650D2833BCEE000546D4 /* SCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCAppDelegate.m; path = Sources/SCWaveformView/SCAppDelegate.m; sourceTree = "<group>"; };
+		170C650E2833BCEE000546D4 /* SCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCViewController.m; path = Sources/SCWaveformView/SCViewController.m; sourceTree = "<group>"; };
+		170C650F2833BCEE000546D4 /* SCScrollableWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCScrollableWaveformView.m; path = Sources/SCWaveformView/SCScrollableWaveformView.m; sourceTree = "<group>"; };
+		170C65102833BCEE000546D4 /* SCWaveformCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCWaveformCache.m; path = Sources/SCWaveformView/SCWaveformCache.m; sourceTree = "<group>"; };
+		170C65162833BCF9000546D4 /* SCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCAppDelegate.h; path = Sources/SCWaveformView/include/SCWaveformView/SCAppDelegate.h; sourceTree = "<group>"; };
+		170C65172833BCF9000546D4 /* SCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCViewController.h; path = Sources/SCWaveformView/include/SCWaveformView/SCViewController.h; sourceTree = "<group>"; };
+		170C65182833BCF9000546D4 /* SCWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCWaveformView.h; path = Sources/SCWaveformView/include/SCWaveformView/SCWaveformView.h; sourceTree = "<group>"; };
+		170C65192833BCF9000546D4 /* SCScrollableWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCScrollableWaveformView.h; path = Sources/SCWaveformView/include/SCWaveformView/SCScrollableWaveformView.h; sourceTree = "<group>"; };
+		170C651A2833BCF9000546D4 /* SCWaveformCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCWaveformCache.h; path = Sources/SCWaveformView/include/SCWaveformView/SCWaveformCache.h; sourceTree = "<group>"; };
 		DC2C7A321892A0770085043D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC2C7A341892A0770085043D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DC2C7A361892A0770085043D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DC2C7A3A1892A0770085043D /* SCWaveformView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCWaveformView-Info.plist"; sourceTree = "<group>"; };
-		DC2C7A3C1892A0770085043D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DC2C7A3E1892A0770085043D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DC2C7A401892A0770085043D /* SCWaveformView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCWaveformView-Prefix.pch"; sourceTree = "<group>"; };
-		DC2C7A411892A0770085043D /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
-		DC2C7A421892A0770085043D /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
-		DC2C7A451892A0770085043D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DC2C7A471892A0770085043D /* SCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
-		DC2C7A481892A0770085043D /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
-		DC2C7A4A1892A0770085043D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DC2C7A511892A0770085043D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DC2C7A671892A0AD0085043D /* SCWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCWaveformView.h; sourceTree = "<group>"; };
-		DC2C7A681892A0AD0085043D /* SCWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCWaveformView.m; sourceTree = "<group>"; };
-		DC2C7A6B1892A84F0085043D /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
 		DCC79A2B1896983000CECFE7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DC2C7A2C1892A0770085043D /* Frameworks */ = {
+		170C64F42832FCFD000546D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCC79A2C1896983100CECFE7 /* QuartzCore.framework in Frameworks */,
-				DC2C7A351892A0770085043D /* CoreGraphics.framework in Frameworks */,
-				DC2C7A371892A0770085043D /* UIKit.framework in Frameworks */,
-				DC2C7A331892A0770085043D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,8 +51,16 @@
 		DC2C7A261892A0770085043D = {
 			isa = PBXGroup;
 			children = (
-				DC2C7A6B1892A84F0085043D /* test.m4a */,
-				DC2C7A381892A0770085043D /* Sources */,
+				170C65162833BCF9000546D4 /* SCAppDelegate.h */,
+				170C65192833BCF9000546D4 /* SCScrollableWaveformView.h */,
+				170C65172833BCF9000546D4 /* SCViewController.h */,
+				170C651A2833BCF9000546D4 /* SCWaveformCache.h */,
+				170C65182833BCF9000546D4 /* SCWaveformView.h */,
+				170C650D2833BCEE000546D4 /* SCAppDelegate.m */,
+				170C650F2833BCEE000546D4 /* SCScrollableWaveformView.m */,
+				170C650E2833BCEE000546D4 /* SCViewController.m */,
+				170C65102833BCEE000546D4 /* SCWaveformCache.m */,
+				170C650C2833BCEE000546D4 /* SCWaveformView.m */,
 				DC2C7A311892A0770085043D /* Frameworks */,
 				DC2C7A301892A0770085043D /* Products */,
 			);
@@ -77,7 +69,7 @@
 		DC2C7A301892A0770085043D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC2C7A2F1892A0770085043D /* SCWaveformView.app */,
+				170C64F72832FCFD000546D4 /* SCWaveformView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,52 +81,36 @@
 				DC2C7A321892A0770085043D /* Foundation.framework */,
 				DC2C7A341892A0770085043D /* CoreGraphics.framework */,
 				DC2C7A361892A0770085043D /* UIKit.framework */,
-				DC2C7A511892A0770085043D /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DC2C7A381892A0770085043D /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				DC2C7A411892A0770085043D /* SCAppDelegate.h */,
-				DC2C7A421892A0770085043D /* SCAppDelegate.m */,
-				DC2C7A441892A0770085043D /* Main.storyboard */,
-				DC2C7A471892A0770085043D /* SCViewController.h */,
-				DC2C7A481892A0770085043D /* SCViewController.m */,
-				DC2C7A4A1892A0770085043D /* Images.xcassets */,
-				DC2C7A391892A0770085043D /* Supporting Files */,
-				DC2C7A671892A0AD0085043D /* SCWaveformView.h */,
-				DC2C7A681892A0AD0085043D /* SCWaveformView.m */,
-				DC27B75C1A9D0C80003DA2CB /* SCScrollableWaveformView.h */,
-				DC27B75D1A9D0C80003DA2CB /* SCScrollableWaveformView.m */,
-				DC27B75F1A9D2649003DA2CB /* SCWaveformCache.h */,
-				DC27B7601A9D2649003DA2CB /* SCWaveformCache.m */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		DC2C7A391892A0770085043D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DC2C7A3A1892A0770085043D /* SCWaveformView-Info.plist */,
-				DC2C7A3B1892A0770085043D /* InfoPlist.strings */,
-				DC2C7A3E1892A0770085043D /* main.m */,
-				DC2C7A401892A0770085043D /* SCWaveformView-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		170C64F22832FCFD000546D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170C651B2833BCF9000546D4 /* SCAppDelegate.h in Headers */,
+				170C651C2833BCF9000546D4 /* SCViewController.h in Headers */,
+				170C651F2833BCF9000546D4 /* SCWaveformCache.h in Headers */,
+				170C651D2833BCF9000546D4 /* SCWaveformView.h in Headers */,
+				170C651E2833BCF9000546D4 /* SCScrollableWaveformView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		DC2C7A2E1892A0770085043D /* SCWaveformView */ = {
+		170C64F62832FCFD000546D4 /* SCWaveformView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC2C7A611892A0770085043D /* Build configuration list for PBXNativeTarget "SCWaveformView" */;
+			buildConfigurationList = 170C64FB2832FCFD000546D4 /* Build configuration list for PBXNativeTarget "SCWaveformView" */;
 			buildPhases = (
-				DC2C7A2B1892A0770085043D /* Sources */,
-				DC2C7A2C1892A0770085043D /* Frameworks */,
-				DC2C7A2D1892A0770085043D /* Resources */,
+				170C64F22832FCFD000546D4 /* Headers */,
+				170C64F32832FCFD000546D4 /* Sources */,
+				170C64F42832FCFD000546D4 /* Frameworks */,
+				170C64F52832FCFD000546D4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,8 +118,8 @@
 			);
 			name = SCWaveformView;
 			productName = SCWaveformView;
-			productReference = DC2C7A2F1892A0770085043D /* SCWaveformView.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 170C64F72832FCFD000546D4 /* SCWaveformView.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -154,12 +130,19 @@
 				CLASSPREFIX = SC;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Simon CORSIN";
+				TargetAttributes = {
+					170C64F62832FCFD000546D4 = {
+						CreatedOnToolsVersion = 13.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = DC2C7A2A1892A0770085043D /* Build configuration list for PBXProject "SCWaveformView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -168,61 +151,144 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC2C7A2E1892A0770085043D /* SCWaveformView */,
+				170C64F62832FCFD000546D4 /* SCWaveformView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DC2C7A2D1892A0770085043D /* Resources */ = {
+		170C64F52832FCFD000546D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC2C7A6C1892A84F0085043D /* test.m4a in Resources */,
-				DC2C7A4B1892A0770085043D /* Images.xcassets in Resources */,
-				DC2C7A3D1892A0770085043D /* InfoPlist.strings in Resources */,
-				DC2C7A461892A0770085043D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DC2C7A2B1892A0770085043D /* Sources */ = {
+		170C64F32832FCFD000546D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC2C7A431892A0770085043D /* SCAppDelegate.m in Sources */,
-				DC27B7611A9D2649003DA2CB /* SCWaveformCache.m in Sources */,
-				DC27B75E1A9D0C80003DA2CB /* SCScrollableWaveformView.m in Sources */,
-				DC2C7A491892A0770085043D /* SCViewController.m in Sources */,
-				DC2C7A3F1892A0770085043D /* main.m in Sources */,
-				DC2C7A691892A0AD0085043D /* SCWaveformView.m in Sources */,
+				170C65142833BCEE000546D4 /* SCScrollableWaveformView.m in Sources */,
+				170C65122833BCEE000546D4 /* SCAppDelegate.m in Sources */,
+				170C65152833BCEE000546D4 /* SCWaveformCache.m in Sources */,
+				170C65132833BCEE000546D4 /* SCViewController.m in Sources */,
+				170C65112833BCEE000546D4 /* SCWaveformView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		DC2C7A3B1892A0770085043D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC2C7A3C1892A0770085043D /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DC2C7A441892A0770085043D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC2C7A451892A0770085043D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
+		170C64FC2832FCFD000546D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Simon CORSIN. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = SCorsin.SCWaveformView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		170C64FD2832FCFD000546D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Simon CORSIN. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = SCorsin.SCWaveformView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		DC2C7A5F1892A0770085043D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -295,49 +361,23 @@
 			};
 			name = Release;
 		};
-		DC2C7A621892A0770085043D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sources/SCWaveformView-Prefix.pch";
-				INFOPLIST_FILE = "Sources/SCWaveformView-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		DC2C7A631892A0770085043D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sources/SCWaveformView-Prefix.pch";
-				INFOPLIST_FILE = "Sources/SCWaveformView-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		170C64FB2832FCFD000546D4 /* Build configuration list for PBXNativeTarget "SCWaveformView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170C64FC2832FCFD000546D4 /* Debug */,
+				170C64FD2832FCFD000546D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DC2C7A2A1892A0770085043D /* Build configuration list for PBXProject "SCWaveformView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC2C7A5F1892A0770085043D /* Debug */,
 				DC2C7A601892A0770085043D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DC2C7A611892A0770085043D /* Build configuration list for PBXNativeTarget "SCWaveformView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DC2C7A621892A0770085043D /* Debug */,
-				DC2C7A631892A0770085043D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
